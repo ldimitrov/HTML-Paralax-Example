@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Varela Round";
+  background: #fff;
+}
+
+#header {
+  background: url(https://raw.github.com/pederan/ImageScroll/master/demo/img/german_landscapes-1600x900.jpg) no-repeat center;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#header .center {
+  background: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  color: #F5F7FA;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#header .center .middle {
+  position: absolute;
+  margin-top: -6em;
+  right: 0;
+  left: 0;
+  top: 50%;
+}
+
+#header .center .middle h1 {
+  font-weight: normal;
+  line-height: 1em;
+  font-size: 11vw;
+  margin: 0;
+}
+
+#header .center .middle span {
+  line-height: 1em;
+  font-size: 1em;
+}
+
+#hrLine, #pageHrLineBorder {
+  position: absolute;
+  border-bottom: 25px solid #3D9970;
+  margin-top: -45px;
+  height: 170px;
+  display: block;
+  right: 0px;
+  left: 0px;
+  top: 100%;
+}
+
+#pageHr .a:before,
+#pageHr .a:after, #pageHrLineBorder .a:before,
+#pageHrLineBorder .a:after {
+  border-color: #48CFAD transparent;
+  border-style: solid;
+  position: absolute;
+  display: block;
+  content: "";
+}
+
+#pageHr .a:before, #pageHrLineBorder .a:before {
+  border-width: 0 20px 20px 0;
+  right: 50%;
+}
+
+#pageHr .a:after, #pageHrLineBorder .a:after {
+  border-width: 0 0 20px 20px;
+  left: 50%;
+}
+
+#pageHr .s:before,
+#pageHr .s:after, #pageHrLineBorder .s:before,
+#pageHrLineBorder .s:after {
+  background: #48CFAD;
+  position: absolute;
+  display: block;
+  content: "";
+  right: 0;
+  left: 0;
+}
+
+#pageHrLineBorder {
+  border-bottom-color: #F5F7FA; 
+}
+
+#pageHrLineBorder .a:before,
+#pageHrLineBorder .a:after {
+  border-color: #F5F7FA transparent;
+}
+
+#pageHrLineBorder .s:before,
+#pageHrLineBorder .s:after {
+  background: #2F4F4F;
+}
+
+#page {
+  background: #2F4F4F;
+  position: relative;
+  height: 100.0%;
+  top: 100%;
+}
+
+#sectionText h1{
+  font-weight: normal;
+  line-height: 1em;
+  font-size: 12vw;
+  color: #FFFFFF;
+  text-align: center;
+}
